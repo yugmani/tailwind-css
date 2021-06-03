@@ -1,0 +1,14 @@
+.tail-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: white; */
+}
+
+.tail-container > div {
+  text-align: center;
+  padding: 5px;
+}
