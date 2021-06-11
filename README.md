@@ -15,3 +15,5 @@ eg. <div class="bg-black">black background </div>
 
 -shade ranges from 100-900.
 -black and white don't need shade value.
+
+## Source: Tailwind CSS Tutorial for Beginners - Full Course( https://www.youtube.com/watch?v=4wGmylafgM4&t=1684s );
