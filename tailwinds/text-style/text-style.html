@@ -16,7 +16,7 @@
       <div id="font-family" class="mt-6">
         <p class="text-4xl text-blue-500">Style: Font-Family</p>
         <div class="text-family p-4">
-          <p class="font-serif">class="font-serif"!</p>
+          <p class="font-serif">class="font-serif"</p>
           <p class="font-mono">class="font-mono"</p>
           <p class="font-sans">class="font-sans"</p>
           <p>No font-family defined.</p>
@@ -40,15 +40,70 @@
       <div id="style-align" class="mt-6">
         <p class="text-4xl text-blue-500">Style:Text-Alignment</p>
         <div class="text-align p-4">
-          <p class="text-justify text-2xl">
-            class="text-justify"Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Deserunt voluptas maiores est adipisci, quam enim
-            error in hic doloremque esse?
+          <p class="text-justify italic text-2xl">
+            <span class="not-italic">class="text-justify italic"</span>Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptas
+            maiores est adipisci, quam enim error in hic doloremque esse?
           </p>
           <p class="text-right text-2xl text-purple-500">class="text-right"!</p>
           <p class="text-center text-2xl text-red-500">class="text-center"</p>
           <p class="text-left text-2xl text-yellow-500">class="text-left"</p>
         </div>
+      </div>
+      <div id="style-font-weight" class="mt-6">
+        <p class="text-4xl text-blue-500">
+          Style:Font-{Weight}, Letter Spacing & Text Decorations
+        </p>
+        <ul>
+          <li class="font-hairline tracking-tighter">
+            font-airline 100 tracking-tighter -0.05em
+          </li>
+          <li class="font-thin tracking-tight">
+            font-thin 200 tracking-tight -0.025em
+          </li>
+          <li class="font-light tracking-normal">
+            font-light 300 tracking-normal 0
+          </li>
+          <li class="font-normal tracking-wide">
+            font-normal 400 tracking-wide 0.025em
+          </li>
+          <li class="font-medium tracking-wider">
+            font-medium 500 tracking-wider 0.05em
+          </li>
+          <li class="font-semibold tracking-widest">
+            font-semibold 600 tracking-widest 0.1em
+          </li>
+          <li class="font-bold underline">font-bold 700 underline</li>
+          <li class="font-extrabold no-underline">
+            font-extrabold 800 no-underline
+          </li>
+          <li class="font-black line-through">font-black 900 line-through</li>
+          <hr />
+          <li class="italic">*Note: Tracking is in em units not in rem</li>
+          <li class="italic">
+            *em units is based on the parent element's font size, not the
+            document
+          </li>
+        </ul>
+      </div>
+      <div id="style-line-height" class="mt-6">
+        <p class="text-4xl text-blue-500">Style:Line Height & Text Transform</p>
+        <ul>
+          <li class="leading-none bg-gray-100 uppercase">
+            leading-none 1 uppercase
+          </li>
+          <li class="leading-tight bg-gray-200 lowercase">
+            leading-tight 1.25 lowercase
+          </li>
+          <li class="leading-snug bg-gray-300 capitalize">
+            leading-snug 1.375 capitalize
+          </li>
+          <li class="leading-normal bg-gray-400 normal-case">
+            leading-normal 1.5 normal-case
+          </li>
+          <li class="leading-relaxed bg-gray-500">leading-relaxed 1.625</li>
+          <li class="leading-loose bg-gray-600">leading-loose 2</li>
+        </ul>
       </div>
     </div>
   </body>
